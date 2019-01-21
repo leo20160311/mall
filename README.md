@@ -28,7 +28,7 @@
 
 前端项目`mall-admin-web`地址：https://github.com/macrozheng/mall-admin-web 
 
-项目演示地址： [http://39.98.69.210/index.html](http://39.98.69.210/index.html)  
+项目演示地址： [http://39.98.190.128/index.html](http://39.98.190.128/index.html)  
   
 ![后台管理系统功能演示.gif](https://github.com/macrozheng/mall/blob/master/document/resource/mall-admin.gif)
 
@@ -36,7 +36,7 @@
 
 前端项目`mall-app-web`地址：敬请期待......
 
-项目演示地址：[http://39.98.69.210/mall-app/mainpage.html](http://39.98.69.210/mall-app/mainpage.html)
+项目演示地址：[http://39.98.190.128/mall-app/mainpage.html](http://39.98.190.128/mall-app/mainpage.html)
 
 ![前台商城系统功能演示.gif](https://github.com/macrozheng/mall/blob/master/document/resource/mall-app.gif)
 
@@ -71,7 +71,7 @@ MongoDb | NoSql数据库 | [https://www.mongodb.com/](https://www.mongodb.com/)
 Docker | 应用容器引擎 | [https://www.docker.com/](https://www.docker.com/)
 Druid | 数据库连接池 | [https://github.com/alibaba/druid](https://github.com/alibaba/druid)
 OSS | 对象存储 | [https://github.com/aliyun/aliyun-oss-java-sdk](https://github.com/aliyun/aliyun-oss-java-sdk)
-JWT | JTW登录支持 | [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
+JWT | JWT登录支持 | [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
 LogStash | 日志收集 | [https://github.com/logstash/logstash-logback-encoder](https://github.com/logstash/logstash-logback-encoder)
 Lombok | 简化对象封装工具 | [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
 
@@ -166,7 +166,7 @@ nginx | 1.10 | http://nginx.org/en/download.html
 
 > docker环境部署
 
-- 安装CenterOs7.2在VirtualBox虚拟机中；
+- 在VirtualBox或其他环境中安装CenterOs7.2;
 - 配置本地host:参考[host.txt](document/docker/host.txt),将ip地址改为虚拟机的ip地址;
 - 使用maven构建`mall-admin`、`mall-search`、`mall-portal`的docker镜像，参考[docker.md](document/reference/docker.md)中的使用maven构建Docker镜像;
 - 部署步骤参考[docker-deploy.md](document/docker/docker-deploy.md)进行部署。
